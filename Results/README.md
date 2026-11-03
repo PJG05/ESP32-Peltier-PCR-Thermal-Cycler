@@ -7,11 +7,13 @@ This document consolidates the measured hold-performance results and their inter
 
 The following calculations use samples labelled **Holding**, grouped cycle-by-cycle. A cycle mean is the average of that cycle's recorded hold samples. Cycle-to-cycle error spread is the standard deviation of those cycle means.
 
+
 | Stage | Target | Recorded Cycles | Mean of Cycle Means | Mean Error | SD of Cycle Error | Average Hold Peak-to-Peak |
-|---|---:|---:|---:|---:|---:|
+|---|---:|---:|---:|---:|---:|---:|
 | Denaturation | 95°C | 29 | 94.84°C | −0.16°C | 0.23°C | 2.28°C |
 | Annealing | 60°C | 29 | 60.66°C | +0.66°C | 0.44°C | 2.81°C |
 | Extension | 72°C | 29 | 72.57°C | +0.57°C | 0.23°C | 3.02°C |
+
 
 ### How to Interpret the Values
 
